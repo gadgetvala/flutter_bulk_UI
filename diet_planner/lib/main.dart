@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import './views/question_screen.dart';
 import './views/start_screen.dart';
 
 void main() {
@@ -15,6 +16,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: StartScreen(),
+      routes: ({
+        QuestionScreen.routeName: (ctx) => QuestionScreen(),
+      }),
     );
   }
 }
