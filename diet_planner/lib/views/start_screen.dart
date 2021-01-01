@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import './question_screen.dart';
+import './../widgets/start_screen_widget/custom_header.dart';
+
 class StartScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -9,34 +12,28 @@ class StartScreen extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.end,
         children: <Widget>[
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Text(
-              'Mengatur pola makan sehat',
-              style: TextStyle(
-                fontSize: 40.0,
-                fontWeight: FontWeight.w600,
-                color: Colors.black,
-              ),
-              textAlign: TextAlign.center,
-            ),
+          CustomHeader(
+            headerText: 'Set a healthy diet',
+            customFontSize: 40.0,
+            customFontWeight: FontWeight.w600,
+            customFontColor: Colors.black,
+            customPadding: 8.0,
+            position: TextAlign.center,
           ),
           SizedBox(height: 50),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Text(
-              'Mari kita bangun kebiasaan yang membaias cinta Anda',
-              style: TextStyle(
-                fontSize: 20.0,
-                fontWeight: FontWeight.w300,
-                color: Color(0xff8F9BB5),
-              ),
-              textAlign: TextAlign.center,
-            ),
+          CustomHeader(
+            headerText: 'Let\'s build a habit that makes you love',
+            customFontSize: 20.0,
+            customFontWeight: FontWeight.w300,
+            customFontColor: Color(0xff8F9BB5),
+            customPadding: 8.0,
+            position: TextAlign.center,
           ),
           SizedBox(height: 50),
           RaisedButton(
-            onPressed: () {},
+            onPressed: () {
+              Navigator.of(context).pushNamed(QuestionScreen.routeName);
+            },
             color: Color(0xffFF9B70),
             elevation: 2,
             shape: RoundedRectangleBorder(
@@ -47,7 +44,7 @@ class StartScreen extends StatelessWidget {
               vertical: 14.0,
             ),
             child: Text(
-              'Mulai Sekarang',
+              'From now on',
               style: TextStyle(
                 fontWeight: FontWeight.w400,
                 color: Colors.white,
