@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import './views/question_screen.dart';
 import './views/start_screen.dart';
+import './views/homepage_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
       home: StartScreen(),
       routes: ({
         QuestionScreen.routeName: (ctx) => QuestionScreen(),
+        HomepageScreen.routeName: (ctx) => HomepageScreen(),
       }),
     );
   }
