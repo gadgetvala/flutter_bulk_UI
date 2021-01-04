@@ -53,7 +53,11 @@ class StartScreen extends StatelessWidget {
             ),
           ),
           SizedBox(height: 40),
-          Image.asset('assets/cutout.png', fit: BoxFit.contain),
+          Image.asset(
+            'assets/cutout.png',
+            fit: BoxFit.contain,
+            width: double.infinity,
+          ),
         ],
       ),
     );
