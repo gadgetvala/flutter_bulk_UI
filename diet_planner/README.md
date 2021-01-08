@@ -10,7 +10,7 @@ is a small, simple and beautiful Flutter UI.
 
 Before we start, you can take a look at the app:
 
-![Output sample](images/preview.gif)
+<img src="images/preview.gif" width="250" height="550"/>
 
 ## :bulb: Key Features
 
@@ -84,10 +84,10 @@ widgets | Smaller Widgets
 main.dart | Main App Startup
 
 ## :clap: Done
-Feel free to **file a new issue** with a respective title and description on the the [Where in the Country](https://github.com/gadgetvala/flutter_bulk_UI/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**! 
+Feel free to **file a new issue** with a respective title and description on the the [Flutter Bulk UI](https://github.com/gadgetvala/flutter_bulk_UI/issues) repository. If you already found a solution to your problem, **I would love to review your pull request**! 
 
 ## 📘&nbsp; License
-The where in the world app is released under the under terms of the [MIT License](LICENSE).
+The Flutter Bulk UI Repo is released under the under terms of the [MIT License](LICENSE).
 
 ## :heart: Contributor
 Made by [Suraj Verma](https://github.com/gadgetvala)
