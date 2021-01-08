@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import './views/question_screen.dart';
 import './views/start_screen.dart';
 import './views/homepage_screen.dart';
+import './views/bottomDrawer.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       routes: ({
         QuestionScreen.routeName: (ctx) => QuestionScreen(),
         HomepageScreen.routeName: (ctx) => HomepageScreen(),
+        BottomDrawer.routeName: (ctx) => BottomDrawer(),
       }),
     );
   }
