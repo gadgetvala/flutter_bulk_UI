@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import './../widgets/start_screen_widget/custom_header.dart';
 import './../widgets/question_screen_widget/custom_grid.dart';
-import './homepage_screen.dart';
 import './../widgets/question_screen_widget/custom_drop_down_menu.dart';
+import './bottomDrawer.dart';
 
 class QuestionScreen extends StatelessWidget {
   static String routeName = '/question-screen';
@@ -36,7 +36,7 @@ class QuestionScreen extends StatelessWidget {
             CustomDropDownMenu(),
             RaisedButton(
               onPressed: () {
-                Navigator.of(context).pushNamed(HomepageScreen.routeName);
+                Navigator.of(context).pushNamed(BottomDrawer.routeName);
               },
               color: Color(0xffFF9B70),
               elevation: 2,
