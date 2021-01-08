@@ -4,6 +4,7 @@ import 'package:percent_indicator/percent_indicator.dart';
 import './../widgets/homepage_screen_widget/apptopheader.dart';
 import './../widgets/homepage_screen_widget/mainHeaderText.dart';
 import './../widgets/homepage_screen_widget/breakFastCard.dart';
+import './../widgets/homepage_screen_widget/horizontalAdditionSlider.dart';
 
 class HomepageScreen extends StatelessWidget {
   static String routeName = '/homepage-screen';
@@ -56,7 +57,7 @@ class HomepageScreen extends StatelessWidget {
             ),
             Expanded(
               child: Container(
-                margin: EdgeInsets.only(top: 20),
+                margin: EdgeInsets.only(top: 10),
                 width: double.infinity,
                 padding: EdgeInsets.fromLTRB(30, 20, 30, 30),
                 decoration: BoxDecoration(
@@ -66,50 +67,53 @@ class HomepageScreen extends StatelessWidget {
                     topRight: Radius.circular(35.0),
                   ),
                 ),
-                child: Column(
-                  children: <Widget>[
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: <Widget>[
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.only(
-                                bottom: 5,
-                              ),
-                              child: Text(
-                                'Healthier!',
-                                style: TextStyle(
-                                  fontSize: 20,
-                                  fontWeight: FontWeight.w500,
+                child: SingleChildScrollView(
+                  child: Column(
+                    children: <Widget>[
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: <Widget>[
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                  bottom: 5,
+                                ),
+                                child: Text(
+                                  'Healthier!',
+                                  style: TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.w500,
+                                  ),
                                 ),
                               ),
-                            ),
-                            Text(
-                              '2 days of eating healthy food',
-                              style: TextStyle(
-                                fontSize: 15,
-                                fontWeight: FontWeight.w300,
-                              ),
-                            )
-                          ],
-                        ),
-                        Container(
-                          decoration: BoxDecoration(
-                              color: Color(0xffFFF1FD),
-                              borderRadius:
-                                  BorderRadius.all(Radius.circular(200))),
-                          child: Padding(
-                            padding: const EdgeInsets.all(20.0),
-                            child: Icon(Icons.arrow_right_alt_outlined,
-                                color: Color(0xffC97BBA)),
+                              Text(
+                                '2 days of eating healthy food',
+                                style: TextStyle(
+                                  fontSize: 15,
+                                  fontWeight: FontWeight.w300,
+                                ),
+                              )
+                            ],
                           ),
-                        )
-                      ],
-                    ),
-                    BreakFastCard(),
-                  ],
+                          Container(
+                            decoration: BoxDecoration(
+                                color: Color(0xffFFF1FD),
+                                borderRadius:
+                                    BorderRadius.all(Radius.circular(200))),
+                            child: Padding(
+                              padding: const EdgeInsets.all(20.0),
+                              child: Icon(Icons.arrow_right_alt_outlined,
+                                  color: Color(0xffC97BBA)),
+                            ),
+                          )
+                        ],
+                      ),
+                      BreakFastCard(),
+                      HorizontalAdditionSlider(),
+                    ],
+                  ),
                 ),
               ),
             )
