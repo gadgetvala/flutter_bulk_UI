@@ -3,6 +3,7 @@ import 'package:percent_indicator/percent_indicator.dart';
 
 import './../widgets/homepage_screen_widget/apptopheader.dart';
 import './../widgets/homepage_screen_widget/mainHeaderText.dart';
+import './../widgets/homepage_screen_widget/breakFastCard.dart';
 
 class HomepageScreen extends StatelessWidget {
   static String routeName = '/homepage-screen';
@@ -106,7 +107,8 @@ class HomepageScreen extends StatelessWidget {
                           ),
                         )
                       ],
-                    )
+                    ),
+                    BreakFastCard(),
                   ],
                 ),
               ),
