@@ -20,51 +20,54 @@ class BreakFastCard extends StatelessWidget {
             'assets/breakfast2.png',
             height: 90,
           ),
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            children: <Widget>[
-              Text(
-                'Breakfast',
-                style: TextStyle(
-                  fontSize: 25,
-                  color: Color(0xff3F4F64),
-                ),
-              ),
-              Container(
-                width: 150,
-                child: Text(
-                  'Eggs, rice, soy sauce, fried onions',
+          Padding(
+            padding: const EdgeInsets.only(top: 10, bottom: 10),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: <Widget>[
+                Text(
+                  'Breakfast',
                   style: TextStyle(
-                    fontSize: 15,
+                    fontSize: 25,
                     color: Color(0xff3F4F64),
                   ),
-                  overflow: TextOverflow.fade,
                 ),
-              ),
-              RaisedButton(
-                onPressed: () {},
-                color: Color(0xffFF9B70),
-                elevation: 2,
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(20),
-                ),
-                padding: EdgeInsets.symmetric(
-                  horizontal: 15,
-                  vertical: 5,
-                ),
-                child: Text(
-                  'Total consumption of \n120 calories',
-                  style: TextStyle(
-                    fontWeight: FontWeight.w400,
-                    color: Colors.white,
-                    fontSize: 18.0,
+                Container(
+                  width: 150,
+                  child: Text(
+                    'Eggs, rice, soy sauce, fried onions',
+                    style: TextStyle(
+                      fontSize: 15,
+                      color: Color(0xff3F4F64),
+                    ),
+                    overflow: TextOverflow.fade,
                   ),
-                  textAlign: TextAlign.center,
-                  overflow: TextOverflow.clip,
                 ),
-              ),
-            ],
+                RaisedButton(
+                  onPressed: () {},
+                  color: Color(0xffFF9B70),
+                  elevation: 2,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(30),
+                  ),
+                  padding: EdgeInsets.symmetric(
+                    horizontal: 20,
+                    vertical: 6,
+                  ),
+                  child: Text(
+                    'Total consumption of\n120 calories',
+                    style: TextStyle(
+                      fontWeight: FontWeight.w400,
+                      color: Colors.white,
+                      fontSize: 14.0,
+                    ),
+                    textAlign: TextAlign.center,
+                    overflow: TextOverflow.clip,
+                  ),
+                ),
+              ],
+            ),
           )
         ],
       ),
