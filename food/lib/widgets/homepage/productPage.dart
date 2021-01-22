@@ -1,22 +1,37 @@
 import 'package:flutter/material.dart';
 
-class ProductPage extends StatelessWidget {
-  final String currentSelectedItemCode;
+import './../../models/data.dart';
+import './productCard.dart';
 
-  ProductPage(this.currentSelectedItemCode);
+class ProductPage extends StatelessWidget {
+  String currentSelectedItemCode;
+  List products;
+
+  ProductPage(String code) {
+    currentSelectedItemCode = code;
+    products = Data.products.where((i) => i['categoryCode'] == code).toList();
+  }
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: SingleChildScrollView(
+    return SingleChildScrollView(
+      child: Container(
+        height: 400,
         child: GridView.builder(
           padding: const EdgeInsets.all(10.0),
-          itemCount: continentList.length,
-          itemBuilder: (ctx, i) => ContinentItem(),
+          itemCount: products.length,
+          itemBuilder: (ctx, i) => ProductCard(
+            categoryCode: products[i]['categoryCode'],
+            productCode: products[i]['productCode'],
+            name: products[i]['productName'],
+            price: products[i]['newPrive'],
+            previousPrice: products[i]['previewPrice'],
+            image: products[i]['imgLink'],
+          ),
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
-            childAspectRatio: 1 / 0.7,
-            crossAxisSpacing: 20,
+            childAspectRatio: 1 / 1.3,
+            crossAxisSpacing: 10,
             mainAxisSpacing: 20,
           ),
         ),
