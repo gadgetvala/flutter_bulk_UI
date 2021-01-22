@@ -27,12 +27,14 @@ class _HomepageScreenState extends State<HomepageScreen> {
       appBar: null,
       body: SafeArea(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             HomepageHeader(),
             SizedBox(height: 10),
             HeaderSelectionMenu(setSelectedItem, currentSelectedItem),
             SizedBox(height: 30),
             ProductMainHeaders(),
+            SizedBox(height: 30),
             ProductPage(currentSelectedItem),
           ],
         ),
