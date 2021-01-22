@@ -33,37 +33,38 @@ class Data {
   ];
 
   static List products = [
+    // Burger
     {
       'categoryCode': 'z1',
       'productCode': 'z11',
       'productName': "Burger",
-      'previewPrice': "10.0",
-      'newPrive': '8.3',
-      'imgLink': ""
+      'previewPrice': "107.0",
+      'newPrive': '85.3',
+      'imgLink': "assets/burger_1.png"
     },
     {
-      'categoryCode': 'z',
+      'categoryCode': 'z1',
       'productCode': 'z12',
-      'productName': "Burger",
-      'previewPrice': "10.0",
-      'newPrive': '8.3',
-      'imgLink': ""
+      'productName': "Burger Double cheese",
+      'previewPrice': "105.0",
+      'newPrive': '85.3',
+      'imgLink': "assets/burger_2.png"
     },
     {
       'categoryCode': 'z1',
       'productCode': 'z13',
-      'productName': "Burger",
-      'previewPrice': "10.0",
-      'newPrive': '8.3',
-      'imgLink': ""
+      'productName': "Cheese Burger",
+      'previewPrice': "150.0",
+      'newPrive': '8.73',
+      'imgLink': "assets/burger_3.png"
     },
     {
       'categoryCode': 'z1',
       'productCode': 'z14',
-      'productName': "Burger",
+      'productName': "Veg Burger",
       'previewPrice': "10.0",
       'newPrive': '8.3',
-      'imgLink': ""
+      'imgLink': "assets/burger_4.png"
     },
     {
       'categoryCode': 'z1',
@@ -71,7 +72,7 @@ class Data {
       'productName': "Burger",
       'previewPrice': "10.0",
       'newPrive': '8.3',
-      'imgLink': ""
+      'imgLink': "assets/burger_5.png"
     },
     {
       'categoryCode': 'z1',
@@ -79,7 +80,7 @@ class Data {
       'productName': "Burger",
       'previewPrice': "10.0",
       'newPrive': '8.3',
-      'imgLink': ""
+      'imgLink': "assets/burger_1.png"
     },
     {
       'categoryCode': 'z1',
@@ -87,7 +88,7 @@ class Data {
       'productName': "Burger",
       'previewPrice': "10.0",
       'newPrive': '8.3',
-      'imgLink': ""
+      'imgLink': "assets/burger_2.png"
     },
     {
       'categoryCode': 'z1',
@@ -95,7 +96,7 @@ class Data {
       'productName': "Burger",
       'previewPrice': "10.0",
       'newPrive': '8.3',
-      'imgLink': ""
+      'imgLink': "assets/burger_3.png"
     },
     {
       'categoryCode': 'z1',
@@ -103,7 +104,7 @@ class Data {
       'productName': "Burger",
       'previewPrice': "10.0",
       'newPrive': '8.3',
-      'imgLink': ""
+      'imgLink': "assets/burger_4.png"
     },
     {
       'categoryCode': 'z1',
@@ -111,7 +112,88 @@ class Data {
       'productName': "Burger",
       'previewPrice': "10.0",
       'newPrive': '8.3',
-      'imgLink': ""
+      'imgLink': "assets/burger_5.png"
+    },
+    // Donut
+    {
+      'categoryCode': 'z2',
+      'productCode': 'z21',
+      'productName': "Donut",
+      'previewPrice': "10.0",
+      'newPrive': '8.3',
+      'imgLink': "assets/donut_1.png"
+    },
+    {
+      'categoryCode': 'z2',
+      'productCode': 'z22',
+      'productName': "Cool Donut",
+      'previewPrice': "10.0",
+      'newPrive': '8.3',
+      'imgLink': "assets/donut_2.png"
+    },
+    {
+      'categoryCode': 'z2',
+      'productCode': 'z13',
+      'productName': "Cheeze Donut",
+      'previewPrice': "10.0",
+      'newPrive': '8.3',
+      'imgLink': "assets/donut_3.png"
+    },
+    {
+      'categoryCode': 'z2',
+      'productCode': 'z14',
+      'productName': "Burger",
+      'previewPrice': "10.0",
+      'newPrive': '8.3',
+      'imgLink': "assets/donut_1.png"
+    },
+    {
+      'categoryCode': 'z2',
+      'productCode': 'z15',
+      'productName': "Burger",
+      'previewPrice': "10.0",
+      'newPrive': '8.3',
+      'imgLink': "assets/donut_2.png"
+    },
+    {
+      'categoryCode': 'z2',
+      'productCode': 'z16',
+      'productName': "Burger",
+      'previewPrice': "10.0",
+      'newPrive': '8.3',
+      'imgLink': "assets/donut_1.png"
+    },
+    {
+      'categoryCode': 'z2',
+      'productCode': 'z17',
+      'productName': "Burger",
+      'previewPrice': "10.0",
+      'newPrive': '8.3',
+      'imgLink': "assets/donut_3.png"
+    },
+    {
+      'categoryCode': 'z2',
+      'productCode': 'z18',
+      'productName': "Burger",
+      'previewPrice': "10.0",
+      'newPrive': '8.3',
+      'imgLink': "assets/donut_2.png"
+    },
+    {
+      'categoryCode': 'z2',
+      'productCode': 'z19',
+      'productName': "Burger",
+      'previewPrice': "10.0",
+      'newPrive': '8.3',
+      'imgLink': "assets/donut_1.png"
+    },
+    {
+      'categoryCode': 'z2',
+      'productCode': 'z110',
+      'productName': "Burger",
+      'previewPrice': "10.0",
+      'newPrive': '8.3',
+      'imgLink': "assets/donut_3.png"
     },
   ];
 }
