@@ -30,3 +30,15 @@ final movies = [
     "rating": "6.5"
   },
 ];
+
+final genres = [
+  'Action',
+  "Horror",
+  "Drama",
+  "Romance",
+  "Comedy",
+  "Sci-fi",
+  "Documentary",
+  "Musical",
+  "Thriller"
+];
