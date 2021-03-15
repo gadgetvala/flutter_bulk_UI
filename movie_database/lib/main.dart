@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import './views/homepage_screen/homepage_screen.dart';
+import './views/moviedetail_screen/moviedetails_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,6 +17,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: HomepageScreen(),
+      routes: {
+        MovieDetailsScreen.routeName: (ctx) => MovieDetailsScreen(),
+      },
     );
   }
 }
