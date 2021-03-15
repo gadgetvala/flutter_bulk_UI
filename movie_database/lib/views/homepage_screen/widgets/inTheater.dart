@@ -10,12 +10,20 @@ class InTheater extends StatefulWidget {
 }
 
 class _InTheaterState extends State<InTheater> {
-  int currentMovie;
+  int currentMovie = 0;
+  int currentGenre = 0;
 
   void setCurrentMovieIndex(movieIndex) {
     setState(() {
       currentMovie = movieIndex;
     });
+  }
+
+  void setCurrentGenreIndex(genreIndex) {
+    setState(() {
+      currentGenre = genreIndex;
+    });
+    print(currentGenre);
   }
 
   @override
@@ -26,7 +34,7 @@ class _InTheaterState extends State<InTheater> {
           Container(
             height: 75,
             margin: EdgeInsets.only(top: 15),
-            child: MovieGenres(),
+            child: MovieGenres(setCurrentGenreIndex, currentGenre),
           ),
           Expanded(
             child: MovieSwiper(setCurrentMovieIndex),
