@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
 
 import './../../../models/movies.dart';
+import './../../moviedetail_screen/moviedetails_screen.dart';
 
 class MovieSwiper extends StatelessWidget {
   final Function setCurrentMovieIndex;
@@ -19,7 +20,10 @@ class MovieSwiper extends StatelessWidget {
           ),
           child: InkWell(
             onTap: () {
-              print('suraj');
+              Navigator.of(context)
+                  .pushNamed(MovieDetailsScreen.routeName, arguments: {
+                'index': index,
+              });
             },
             child: ClipRRect(
               borderRadius: BorderRadius.circular(10.0),
