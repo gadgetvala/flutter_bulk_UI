@@ -4,19 +4,19 @@
 
 # Introduction
 
-> “ flutter_bulk_UI  ”
+> “ flutter_bulk_UI ”
 > is repo of serveral small UI project to demonstrate how easy to devlope awesome UI/UX in flutter.
 
 UI :
 
-1. Diet Planner 
-<img src="diet_planner/images/preview.gif" width="250" height="550"/>
+1. Diet Planner
+   <img src="diet_planner/images/preview.gif" width="250" height="550"/>
 
 2. Food  
-<img src="food/images/output.gif" width="250" height="550"/>
+   <img src="food/images/preview.gif" width="250" height="550"/>
 
-3. Movie Database 
-<img src="movie_database/dev_assets/output.gif" width="250" height="550"/>
+3. Movie Database
+   <img src="movie_database/dev-assets/output.gif" width="250" height="550"/>
 
 ## :bulb: Key Features
 
@@ -52,12 +52,12 @@ $ flutter run
 Some very good packages are used in the project, not a big list.
 Below are the information about these packages.
 
-| package                                                   | explain            |
-| --------------------------------------------------------- | ------------------ |
-| [ percent_indicator](https://pub.dev/packages/percent_indicator)  | Progress Bars |
-| [dio](https://pub.dev/packages/dio)                       | Network Calls      |
-| [google_nav_bar](https://pub.dev/packages/google_nav_bar)  | Navigation Desgin      |
-| [flutter_swiper](https://pub.dev/packages/flutter_swiper) | Swiper Preview |
+| package                                                          | explain           |
+| ---------------------------------------------------------------- | ----------------- |
+| [ percent_indicator](https://pub.dev/packages/percent_indicator) | Progress Bars     |
+| [dio](https://pub.dev/packages/dio)                              | Network Calls     |
+| [google_nav_bar](https://pub.dev/packages/google_nav_bar)        | Navigation Desgin |
+| [flutter_swiper](https://pub.dev/packages/flutter_swiper)        | Swiper Preview    |
 
 ## :clap: Done
 
@@ -66,6 +66,7 @@ Feel free to **file a new issue** with a respective title and description on the
 ## 📘&nbsp; License
 
 Free, Hell Yeah!!
+
 ## :heart: Contributor
 
 Made by [Suraj Verma](https://github.com/gadgetvala)
