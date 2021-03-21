@@ -10,13 +10,16 @@
 UI :
 
 1. Diet Planner
-   <img src="diet_planner/images/preview.gif" width="250" height="550"/>
 
-2. Food  
-   <img src="food/images/preview.gif" width="250" height="550"/>
+<img src="diet_planner/images/preview.gif" width="250" height="550"/>
+
+2. Food
+
+<img src="food/images/preview.gif" width="250" height="550"/>
 
 3. Movie Database
-   <img src="movie_database/dev-assets/output.gif" width="250" height="550"/>
+
+<img src="movie_database/dev-assets/output.gif" width="250" height="550"/>
 
 ## :bulb: Key Features
 
