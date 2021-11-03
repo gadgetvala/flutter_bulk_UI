@@ -8,7 +8,11 @@ class AppColors {
 
   // Drinks Color
   final plumColor = const Color(0xffFFC1CD);
+  final plumColorDark = const Color(0xff352737);
   final celeryColor = const Color(0xffBEEC99);
+  final celeryColorDark = const Color(0xff29601A);
   final blueberryColor = const Color(0xffD5D5F8);
+  final blueberryColorDark = const Color(0xff1D0C39);
   final orangeColor = const Color(0xffFFDF82);
+  final orangeColorDark = const Color(0xffF95E08);
 }
