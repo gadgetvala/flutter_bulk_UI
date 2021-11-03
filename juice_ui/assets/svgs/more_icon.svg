@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="151" height="151" viewBox="0 0 151 151">
+  <defs>
+    <filter id="More" x="0" y="0" width="151" height="151" filterUnits="userSpaceOnUse">
+      <feOffset dy="17" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="14.5" result="blur"/>
+      <feFlood flood-color="#9e510e" flood-opacity="0.541"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_11702" data-name="Group 11702" transform="translate(-112.5 -667.5)">
+    <g transform="matrix(1, 0, 0, 1, 112.5, 667.5)" filter="url(#More)">
+      <circle id="More-2" data-name="More" cx="32" cy="32" r="32" transform="translate(43.5 26.5)" fill="#f78f14"/>
+    </g>
+    <path id="Path_5893" data-name="Path 5893" d="M622.518,725s4.265-9.84,8.923-9.84,9.71,9.84,9.71,9.84" transform="translate(819.669 1439.16) rotate(-180)" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="2"/>
+    <text id="More-3" data-name="More" transform="translate(176 744)" fill="#fff" font-size="12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">More</tspan></text>
+  </g>
+</svg>
