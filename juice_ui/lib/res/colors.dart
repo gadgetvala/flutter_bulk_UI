@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  final backgroundColor = const Color(0xffE5E5E9);
+  // App Colors
+  final backgroundColor = const Color(0xffffffff);
+  final borderColor = const Color(0xffF78F14);
+  final secondaryFontColor = const Color(0xff117F19);
 
   // Drinks Color
   final plumColor = const Color(0xffFFC1CD);
