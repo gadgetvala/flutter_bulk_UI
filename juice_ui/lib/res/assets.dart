@@ -14,5 +14,5 @@ class Assets {
   /// Icons
   final String moreIcon = 'assets/svgs/more_icon.svg';
   final String cartSingleIcon = 'assets/svgs/cart_single.svg';
-  final String searchBarIcon = 'assets/svgs/cart_single.svgsearch_bar_icon.svg';
+  final String searchBarIcon = 'assets/svgs/search_bar_icon.svg';
 }
