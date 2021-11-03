@@ -16,11 +16,11 @@ class InputTextFormFilledCommon extends StatelessWidget {
       decoration: BoxDecoration(
         boxShadow: [
           BoxShadow(
-            color: colors.borderColor.withOpacity(0.4),
-            blurRadius: 8,
+            color: colors.borderColor.withOpacity(0.5),
+            blurRadius: 10,
           ),
         ],
-        borderRadius: BorderRadius.circular(5.0),
+        borderRadius: BorderRadius.circular(50),
       ),
       child: TextFormField(
         decoration: InputDecoration(
@@ -37,14 +37,10 @@ class InputTextFormFilledCommon extends StatelessWidget {
             borderSide: BorderSide(color: colors.borderColor),
             borderRadius: BorderRadius.circular(50),
           ),
-          suffixIcon: Container(
-            margin: const EdgeInsets.only(right: 5.0),
-            child: SvgPicture.asset(
-              assets.searchBarIcon,
-              width: 10,
-              height: 10,
-              fit: BoxFit.fill,
-            ),
+          suffixIcon: SvgPicture.asset(
+            assets.searchBarIcon,
+            width: 8,
+            height: 8,
           ),
           hintStyle: TextStyle(
             color: colors.secondaryFontColor.withOpacity(0.4),
