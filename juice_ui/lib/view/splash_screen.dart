@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:juice/res/res.dart';
 
+import 'dashboard_screen/dashboard_screen.dart';
+
 class SplashScreen extends StatefulWidget {
   static const String id = "/splashScreen";
 
@@ -25,7 +27,10 @@ class _SplashScreenState extends State<SplashScreen> {
     // if (pref.fcmToken == null) locator<FcmToken>().getFcmToken();
     await Future.delayed(
       const Duration(milliseconds: 5000),
-      // () => Navigator.pushReplacementNamed(context, LoginScreen.id),
+      () {
+        Navigator.pushNamedAndRemoveUntil(
+            context, DashboardScreen.id, (route) => false);
+      },
     );
   }
 
