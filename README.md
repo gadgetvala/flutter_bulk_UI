@@ -23,11 +23,9 @@ UI :
 
 4. Farmer Eats
 
-          
+https://user-images.githubusercontent.com/25782628/169678317-685a2798-eff5-4dff-8cd2-b5651c70e27f.mp4
 
 
-            farmer_eats.mp4
-          
           
 ## :bulb: Key Features
 
