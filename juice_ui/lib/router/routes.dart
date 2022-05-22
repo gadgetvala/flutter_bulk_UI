@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:juice/view/dashboard_screen/dashboard_screen.dart';
+import 'package:juice/view/detail_screen/detail_screen.dart';
 import 'package:juice/view/splash_screen.dart';
 import 'package:juice/view/tabbar_controller/tabbar_controller.dart';
 
@@ -11,6 +12,11 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const SplashScreen());
       case DashboardScreen.id:
         return MaterialPageRoute(builder: (_) => const DashboardScreen());
+      case DetailScreen.id:
+        return MaterialPageRoute(
+          builder: (_) =>
+              DetailScreen(selectedIndex: settings.arguments! as int),
+        );
       case TabBarController.id:
         return MaterialPageRoute(builder: (_) => const TabBarController());
 

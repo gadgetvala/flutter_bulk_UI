@@ -12,7 +12,7 @@ final List<List<Map<String, dynamic>>> data = [
     },
     {
       "id": 2,
-      " name": "Celery",
+      "name": "Celery",
       "price": 3,
       "image": assets.celeryDrink,
       "color": colors.celeryColor,

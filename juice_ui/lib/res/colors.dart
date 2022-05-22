@@ -4,6 +4,7 @@ class AppColors {
   // App Colors
   final backgroundColor = const Color(0xffffffff);
   final borderColor = const Color(0xffF78F14);
+  final secondaryBorderColor = const Color(0xff518920);
   final secondaryFontColor = const Color(0xff117F19);
 
   // Drinks Color
