@@ -21,6 +21,8 @@ UI :
 
 <img src="movie_database/dev-assets/output.gif" width="250" height="550"/>
 
+4. Farmer Eats
+
 ## :bulb: Key Features
 
 - [x] Netowrk Image.
